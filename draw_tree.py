@@ -23,8 +23,3 @@ def draw_tree_func(height, file_path):
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(tree)
         print(f'Елка сохранена в файл {file_path}')
-
-
-
-
-draw_tree_func(10, file_path='tree.txt')
