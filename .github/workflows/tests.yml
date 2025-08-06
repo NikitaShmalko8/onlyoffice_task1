@@ -26,4 +26,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest test_tree.py
+        pytest test_draw_tree.py
