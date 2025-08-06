@@ -21,7 +21,6 @@ def test_draw_tree_height_10():
     draw_tree_func(height, 'tree.txt')
     with open('tree.txt', 'r', encoding='utf-8') as f:
         result = f.read()
-    print('\n' + result)
     assert expected == result
 
 
@@ -36,7 +35,6 @@ def test_draw_tree_height_1():
     draw_tree_func(height, 'tree.txt')
     with open('tree.txt', 'r', encoding='utf-8') as f:
         result = f.read()
-    print('\n' + result)
     assert expected == result
 
 
